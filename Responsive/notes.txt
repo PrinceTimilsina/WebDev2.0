@@ -1,0 +1,15 @@
+pixels(px)
+-pixels depends on size of the screen
+-pixels are fixed
+
+percentage(%)
+-percentage depends on parents
+
+vw-viewport width
+  -(depends on screen's width)
+
+vh-viewport height
+  -(depends on screen's height)
+
+vmax-viewport maximum
+vmin-viewport minimum

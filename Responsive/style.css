@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  /* background-color: black;
+  color: white;
+  font-family:'Poppins'; */
+}
+
+/*-----------Pixels----------*/
+
+/* .box{
+  height: 700px;
+  width: 700px;
+  background-color: crimson;
+}
+
+#inner{
+  height: 300px;
+  width: 300px;
+  background-color: lightblue;
+} */
+/*--------Percentage------------*/
+
+/* #parent{
+  height: 400px;
+  width: 400px;
+  background-color: lightblue;
+}
+
+.child{
+  height: 40%;
+  width: 40%;
+  background-color: crimson;
+} */
+
+/*----------VH AND VW-----------*/
+/* .box{
+  height: 20vw; 
+  width: 20vw;   
+  background-color: crimson;
+} */
+
+/*-vmin vmax-*/
+
+/*---em and rem*/
+/* #parent{
+  height: 500px;
+  width: 500px;
+  background-color: skyblue;
+  font-size: 50px;
+}
+
+h1{
+  font-size: 1em;
+}
+
+h4{
+  font-size: 3em;   
+} */
+
+
+
