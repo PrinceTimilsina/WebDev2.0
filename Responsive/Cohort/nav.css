@@ -7,15 +7,17 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-color: #111;
+  background-color: black;
+  color: rgb(223, 220, 220);
+  font-family: 'Poppins';
 }
+
  nav {
   display: flex;
   align-items: center;
   justify-content: space-between; 
   padding: 3px 20px;
-  font-family: 'Poppins';
-} 
+}
 .nav1{
 	display: flex;
 	justify-content: center;
