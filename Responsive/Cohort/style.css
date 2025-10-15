@@ -12,4 +12,35 @@ html, body {
   font-family: 'Poppins';
 }
 
- 
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: ;
+}
+
+.nav1{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.nav1 img{
+	height: 50px;
+}
+
+.nav2{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.nav2 a{
+	text-decoration: none;
+	color: white;
+}
+.nav2 img{
+  height: 25px;
+  border-radius: 50%;
+  width: 23px;
+}
