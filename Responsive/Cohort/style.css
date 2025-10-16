@@ -16,7 +16,8 @@ nav{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: ;
+	padding: 10px 15px 5px 15px;
+	margin-bottom: 25px;
 }
 
 .nav1{
@@ -25,6 +26,11 @@ nav{
 	gap: 20px;
 }
 
+.nav1 h6{
+	color: white;
+	font-size: 1rem;
+	font-weight: 300;
+}
 .nav1 img{
 	height: 50px;
 }
@@ -43,4 +49,89 @@ nav{
   height: 25px;
   border-radius: 50%;
   width: 23px;
+}
+
+.nav2 h5{
+	font-size: 20px;
+	display: none;
+}
+
+@media (max-width:710px){
+	.nav2 a{
+		display: none;
+	}
+  
+    .nav2 h5{
+		display: block;
+	}
+
+	.nav2 img{
+		display: none;
+	}
+
+	.box2{
+        display: none;
+	}
+}
+
+@media (min-width: 650px) and (max-width: 800px) {
+   .nav2 a{
+	font-size: 15px;
+   }
+}
+
+main{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.box1{
+	/* border: 3px solid red; */
+	width: 600px;
+	height: 550px;
+	
+}
+
+.box1 h1{
+	font-size: 2.5rem;
+	line-height: 40px;
+	font-family: 'Poppins';
+}
+
+.box2{
+		/* border: 3px solid red; */
+	width: 600px;
+	height: 540px;
+	overflow: hidden;
+	background-color: #1E1E1E;
+}
+
+.box2 img{
+	width: 600px;
+
+}
+
+.text {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  padding: 20px;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+
+.text div {
+  background-color: #111;
+  padding: 12px 15px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+
+.text p {
+  display: inline;
+  color: #00ff9c;
+  margin-left: 6px;
+  font-weight: 600;
 }
