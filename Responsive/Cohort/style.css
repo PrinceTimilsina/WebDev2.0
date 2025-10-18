@@ -4,11 +4,20 @@
   box-sizing: border-box;
 }
 
+/* :root{
+	--gray:
+} */
+@font-face {
+	font-family: Poppins;
+	src: url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap);
+}
+
 html, body {
   height: 100%;
   width: 100%;
   background-color: black;
   color: rgb(223, 220, 220);
+  /* font-family: 'Helvetica'; */
   font-family: 'Poppins';
 }
 
@@ -16,8 +25,9 @@ nav{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 10px 15px 5px 15px;
+	padding: 20px 85px 5px 75px;
 	margin-bottom: 25px;
+	font-family: 'Montserrat';
 }
 
 .nav1{
@@ -38,7 +48,7 @@ nav{
 .nav2{
 	display: flex;
 	align-items: center;
-	gap: 20px;
+	gap: 40px;
 }
 
 .nav2 a{
@@ -51,6 +61,11 @@ nav{
   width: 23px;
 }
 
+.nav2 img:hover{
+	height: 30px;
+	width: 28px;
+	border: 3px solid white;
+}
 .nav2 h5{
 	font-size: 20px;
 	display: none;
@@ -69,9 +84,9 @@ nav{
 		display: none;
 	}
 
-	.box2{
+	/* .box2{
         display: none;
-	}
+	} */
 }
 
 @media (min-width: 650px) and (max-width: 800px) {
@@ -80,14 +95,14 @@ nav{
    }
 }
 
-main{
+/* main{
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 }
 
 .box1{
-	/* border: 3px solid red; */
+	border: 3px solid red;
 	width: 600px;
 	height: 550px;
 	
@@ -100,11 +115,11 @@ main{
 }
 
 .box2{
-		/* border: 3px solid red; */
+	border: 3px solid red;
 	width: 600px;
 	height: 540px;
 	overflow: hidden;
-	background-color: #1E1E1E;
+	background-color:  #1E1E1E;
 }
 
 .box2 img{
@@ -134,4 +149,44 @@ main{
   color: #00ff9c;
   margin-left: 6px;
   font-weight: 600;
+} */
+
+.main{
+	padding-top: 100px; 
+}
+
+.section1{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	padding: 15px 70px;
+  
+}
+
+.section1 .left{
+	width: 43%;
+    font-family: 'Urania Light';
+     font-weight: lighter;
+}
+
+.section1 .left h1{
+	font-size: 45px;
+}
+
+.section1 .left .tags{
+
+}
+
+.section1 .left .tags{
+	background-color: ;
+	font-family: 'Poppins';
+}
+   
+.section1 .right{
+	width: 45%;
+}
+
+.right img{
+	height: 500px;
+	width: 700px;
 }
