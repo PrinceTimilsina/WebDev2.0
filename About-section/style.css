@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Montserrat';
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+nav{
+	height: 110px;
+	width: 100%;
+	padding: 10px 0px;
+	display: flex;
+	align-items: center;
+	position: sticky;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); 
+}
+
+.container{
+   height: 100px;
+   width: 100%;
+   margin-left: 110px;
+   display: flex;
+   align-items: center;
+   gap: 150px;
+}
+
+.logos{
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+.logos .logo1{
+	height: 42px;
+}
+
+.logos .logo2{
+	height: 90px;
+}
+
+.navigations{
+	width: 900px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.navigations a{
+	text-decoration: none;
+	color: black;
+}
+
+.navigations i{
+	font-weight: 600;
+}
+
+.navigations ul{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+}
+section{
+	display: flex;
+	align-items: center;
+	gap: 200px;
+	height: 672px;
+	margin-top: 30px;
+}
+.boxleft{
+	height: 500px;
+	width: 500px;
+	background-color: wheat;
+}
+
+.boxleft img{
+	height:500px;
+}
+
+.boxright {
+   flex: 1;
+   max-width: 600px;
+   font-family: 'Poppins', sans-serif;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .boxright h4 {
+   font-size: 18px;
+   font-weight: 600;
+   color: #2563eb;
+   margin-bottom: 20px;
+   position: relative;
+   display: inline-block;
+ }
+ 
+.boxright h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -10px;
+    width: 60px;
+    height: 4px;
+    background-color: #2563eb;
+}
+
+.boxright h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1e3a8a;
+    line-height: 1.3;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+ }
+
+.boxright p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 35px;
+    text-align: justify;
+ }
+
+ .read-more-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 40px;
+    background-color: #1e3a8a;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    width: fit-content;
+}
+
+.read-more-btn:hover {
+    background-color: #2563eb;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(30, 58, 138, 0.3);
+}
