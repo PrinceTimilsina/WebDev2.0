@@ -2,9 +2,33 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: rgb(29, 20, 39);
 }
 
 html, body {
   height: 100%;
   width: 100%;
 }
+
+main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.profilecard{
+	margin-top: 110px;
+	height: 530px;
+	width: 400px;
+	background-color: rgb(225, 225, 225);
+	display: flex;
+	align-items: self-start;
+	justify-content: flex-start;
+}
+
+.profilecard img{
+	height: 350px;
+	width: 350px;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+
