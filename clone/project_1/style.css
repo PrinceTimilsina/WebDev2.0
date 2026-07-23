@@ -1,0 +1,13 @@
+*{
+    background-color: rgb(17, 25, 34);
+    color: white;
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: white;
+    height: 40px;
+    width: 100%;
+}
